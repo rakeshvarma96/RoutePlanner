@@ -1,0 +1,15 @@
+Assumptions and Approach :
+--------------------------
+1. Have made use of static inventory which gets populated when app comes up.
+	Inventory gets populated in the below manner:
+
+	Date		Route 		InventoryInfo
+	----		----- 		--------------
+
+	I have stored the inventory as map of maps.
+
+2. Have used rest api to get the routes based on fare or duration, but we can use kafka in place of that.
+
+3. Have used factory pattern to sort the trips based on fare or duration.
+
+4. Technologies used: Java, Springboot, maven.
